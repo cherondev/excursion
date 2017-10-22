@@ -1,6 +1,29 @@
 body {
   background-color: #000000;
-}
-h1, h2, h3 {
+  font-family: verdana;
+  text-align: center;
   color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: bold; /*The Redline direction was "font-weight: 300". I added bold to match Codecademy's demo page. */
+}
+
+a {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+p {
+  color: gray;
+  font-size: 21px; /*The Redline direction did not specify a font size for the footer (© Excursion). I added 21px to match Codecademy's demo page. */
+}
+
+.footer p {
+  text-align: right;
 }
